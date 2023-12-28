@@ -17,8 +17,8 @@
             throw new ArgumentException("Значение n должно быть положительным.");
         }
 
-        int count = 0;
-        int number = 1;
+        int count = 0
+        int number = 1
 
         while (count < n)
         {
@@ -42,7 +42,7 @@
 
         for (int i = 2; i <= Math.Sqrt(num); i++)
         {
-            if (num i == 0)
+            if (num % i == 0)
             {
                 return false;
             }
