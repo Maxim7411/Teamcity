@@ -30,7 +30,7 @@
             }
         }
 
-        return number;
+        return number
     }
 
     static bool IsPrime(int num)
